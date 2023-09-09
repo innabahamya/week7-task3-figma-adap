@@ -1,0 +1,91 @@
+
+.menu{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-button{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.menu-h{   
+    width: 50%;
+        font-family: 'Raleway';
+    font-size: 3em;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%; 
+    color: #2C2D35;
+    }
+    
+    .article-picture{
+        /* margin-left: 10%;
+        margin-right: 10%; */
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 2vw;
+        justify-items: center;
+       
+        
+    }
+    .article1, .article2, .article3, .article4, .article5, .article6{
+        background: #E1EDE6;
+        /* width: 15vw;
+        height: 60vh;  */
+        height: auto;
+        width: auto;
+        max-width: 600px;
+        padding: 3%;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+        
+    .artist-name{
+        color: #86928B;
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+    }
+    
+    .picture-name{
+        color: #2C2D35;
+    font-family: 'Raleway';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+    }
+    
+    .material{
+        color: #2C2D35;
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+    }
+    
+    .price{
+        color: #598D66;
+    font-family: 'Raleway';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+    }
+    
+    
+    

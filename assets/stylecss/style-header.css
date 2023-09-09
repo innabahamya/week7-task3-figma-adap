@@ -1,0 +1,73 @@
+*{margin: 0;}
+
+@font-face {
+    font-family: "Raleway";  
+    src: url("/assets/fonts/Raleway-VariableFont_wght.ttf") format("truetype");
+} 
+
+.html{
+    font-size: 20px;
+}
+
+body{
+    width: 100vw;
+}
+
+/* Шапка моего сайта */
+header{
+    background: #E1EDE6;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding-left: 20px;  
+    padding-right: 20px; 
+}
+
+a{
+    margin: 20px;
+    font-family: 'Raleway';
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+    color: #2C2D35; 
+}
+
+/* Кнопки все оформление */
+
+.country-fr, .country-ge, .country-en {
+background: #D4E8D9; 
+display: flex;
+padding: 10px 20px;
+align-items: flex-start; 
+border-radius: 20px;
+height: auto;
+width: 150px;
+font-family: 'Raleway';
+font-size: 1.2rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal; 
+}
+
+.picture{
+background: #E1EDE6;
+color: #598D66;
+border: 1px solid #598D66; 
+font-family: 'Raleway';
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal; 
+display: flex;
+width: 310px;
+height: 65px;
+padding: 20px 60px;
+justify-content: center;
+align-items: center;
+gap: 6px;
+flex-shrink: 0; 
+}
+
